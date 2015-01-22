@@ -48,7 +48,7 @@ $(document).ready(function() {
         .data("bs.popover").tip().addClass("popover-success");
 
     //Change the popover color in 15 seconds
-    setTimer(function() {
+    setTimeout(function() {
         $popover.removeClass("popover-success")
             .addClass("popover-info");
     }, 15000);
