@@ -1,0 +1,73 @@
+//
+// Contextual Popovers
+// --------------------------------------------------
+
+
+.popover.popover-success {
+
+    //** Popover fallback border color
+    @popover-fallback-border-color-success:       #808080;
+
+    color: @state-success-text;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    border: @popover-fallback-border-color-success;
+    border: @popover-border-color;
+
+    .popover-title {
+        color: #fff;
+        background-color: hsv(hsvhue(@state-success-text), 100%, hsvvalue(@state-success-text));
+    }
+}
+.popover.popover-info {
+
+    //** Popover fallback border color
+    @popover-fallback-border-color-info:       #808080;
+
+    color: @state-info-text;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    border: @popover-fallback-border-color-info;
+    border: @popover-border-color;
+
+    .popover-title {
+        color: #fff;
+        background-color: hsv(hsvhue(@state-info-text), 100%, hsvvalue(@state-info-text));
+    }
+}
+.popover.popover-warning {
+
+    //** Popover fallback border color
+    @popover-fallback-border-color-warning:       #808080;
+
+    color: @state-warning-text;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    border: @popover-fallback-border-color-warning;
+    border: @popover-border-color;
+
+    .popover-title {
+        color: #fff;
+        background-color: hsv(hsvhue(@state-warning-text), 100%, hsvvalue(@state-warning-text));
+    }
+}
+.popover.popover-danger {
+
+    //** Popover fallback border color
+    @popover-fallback-border-color-danger:       #808080;
+
+    color: @state-danger-text;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    border: @popover-fallback-border-color-danger;
+    border: @popover-border-color;
+
+    .popover-title {
+        color: #fff;
+        background-color: hsv(hsvhue(@state-danger-text), 100%, hsvvalue(@state-danger-text));
+    }
+}
