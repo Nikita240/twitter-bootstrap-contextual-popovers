@@ -5,14 +5,7 @@
 ![Preview image of different popover contexts in action]
 (http://i.imgur.com/lfpUHD3.png)
 
-You can utilize any of the 4 basic bootstrap contexts (the same ones as used by alert):
-
-- `popover-success`
-- `popover-info`
-- `popover-warning`
-- `popover-danger`
-
-## How to install
+## Installation
 
 You have 2 options. Plain old css, or less.
 
@@ -30,7 +23,14 @@ Otherwise it will not override the default popover styles._
 
 Download the contextual-popovers.less file and `@include` it in your less file.
 
-## How to use
+## Usage
+
+You can utilize any of the 4 basic bootstrap contexts (the same ones as used by alert):
+
+- `popover-success`
+- `popover-info`
+- `popover-warning`
+- `popover-danger`
 
 Add one of the four contextual classes (e.g., `.popover-success`) to the `.popover`
 element. The easiest way to do so is with jQuery.
