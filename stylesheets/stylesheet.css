@@ -623,10 +623,12 @@ form {
 }
 
 #main-content h1:before {
-  padding-right: 0.3em;
-  margin-left: -0.9em;
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  text-align: right;
   color: #9ddcff;
-  content: "/";
+  content: "////";
 }
 
 #main-content h2 {
@@ -638,9 +640,11 @@ form {
   text-indent: 4px;
 }
 #main-content h2:before {
-  padding-right: 0.3em;
-  margin-left: -1.5em;
-  content: "//";
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  text-align: right;
+  content: "///";
   color: #9ddcff;
 }
 
@@ -655,9 +659,11 @@ form {
 }
 
 #main-content h3:before {
-  padding-right: 0.3em;
-  margin-left: -2em;
-  content: "///";
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  text-align: right;
+  content: "//";
   color: #9ddcff;
 }
 
@@ -671,9 +677,11 @@ form {
 }
 
 h4:before {
-  padding-right: 0.3em;
-  margin-left: -2.8em;
-  content: "////";
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  text-align: right;
+  content: "/";
   color: #9ddcff;
 }
 
@@ -685,9 +693,11 @@ h4:before {
   text-indent: 3px;
 }
 h5:before {
-  padding-right: 0.3em;
-  margin-left: -3.2em;
-  content: "/////";
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  text-align: right;
+  content: "";
   color: #9ddcff;
 }
 
@@ -699,9 +709,11 @@ h5:before {
   text-indent: 3px;
 }
 h6:before {
-  padding-right: 0.3em;
-  margin-left: -3.7em;
-  content: "//////";
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  text-align: right;
+  content: "";
   color: #9ddcff;
 }
 
@@ -878,4 +890,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
