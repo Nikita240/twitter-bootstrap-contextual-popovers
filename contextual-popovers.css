@@ -10,6 +10,9 @@
   color: #fff;
   background-color: #007602;
 }
+.popover.popover-success.bottom > .arrow:after {
+  border-bottom-color: #007602;
+}
 .popover.popover-info {
   color: #31708f;
   background-color: #fff;
@@ -21,6 +24,9 @@
 .popover.popover-info .popover-title {
   color: #fff;
   background-color: #00608f;
+}
+.popover.popover-info.bottom > .arrow:after {
+  border-bottom-color: #00608f;
 }
 .popover.popover-warning {
   color: #8a6d3b;
@@ -34,6 +40,9 @@
   color: #fff;
   background-color: #8a5700;
 }
+.popover.popover-warning.bottom > .arrow:after {
+  border-bottom-color: #8a5700;
+}
 .popover.popover-danger {
   color: #a94442;
   background-color: #fff;
@@ -45,4 +54,7 @@
 .popover.popover-danger .popover-title {
   color: #fff;
   background-color: #a90300;
+}
+.popover.popover-danger.bottom > .arrow:after {
+  border-bottom-color: #a90300;
 }

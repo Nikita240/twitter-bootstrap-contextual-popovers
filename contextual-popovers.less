@@ -6,6 +6,7 @@
 
     //** Popover fallback border color
     @popover-fallback-border-color-success:       #808080;
+    @popover-title-color: hsv(hsvhue(@context-color), 100%, hsvvalue(@context-color));
 
     color: @context-color;
     background-color: #fff;
@@ -16,7 +17,14 @@
 
     .popover-title {
         color: #fff;
-        background-color: hsv(hsvhue(@context-color), 100%, hsvvalue(@context-color));
+        background-color: @popover-title-color;
+    }
+
+    //When the arrow is on top, color it the same as the title background
+    &.bottom > .arrow {
+      &:after {
+        border-bottom-color: @popover-title-color;
+      }
     }
 }
 
